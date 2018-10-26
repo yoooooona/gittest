@@ -9,7 +9,9 @@ public class MemberVO {
 		this.no = no;
 		this.age = age;
 	}
-	
+
+	public MemberVO(){}
+
 	public String getNo() {
 		return no;
 	}
